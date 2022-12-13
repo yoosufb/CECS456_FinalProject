@@ -1,4 +1,4 @@
-# CECS 456 Final Prject
+# CECS 456 Final Project
 Final project for CSULB CECS-456 Machine Learning class.
 
 With this project, we aim to train a convolutional neural network model to detect pneumonia in x-ray images of a patient’s lungs. We train on the Kaggle dataset “Chest X-Ray Images (Pneumonia)”. The goal of our project is to determine, given an X-Ray, whether the X-Ray belongs to the ‘Normal’ or ‘Pneumonia’ class. Notice we have to determine if an image is a part of one class or another, there is no third class, which means we have a binary classification problem.
