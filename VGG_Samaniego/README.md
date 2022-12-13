@@ -1,25 +1,28 @@
 This neural network was originally based off of the VGG162014 neural network.
 
 # Model
+
+![Model](../Documentation/Images/vgg_model.PNG)
+
 ```
 ______________________________________________________________________
- Layer (type)					    Output Shape			Param #   
+ Layer (type)                       Output Shape            Param #   
 ======================================================================
- rescaling_1 (Rescaling)			(None, 224, 224, 3)		0    
- conv2d_5 (Conv2D)				    (None, 224, 224, 64)    1792      
- max_pooling2d_5 (MaxPooling 2D)  	(None, 112, 112, 64)    0  
- conv2d_6 (Conv2D)                	(None, 112, 112, 128)   73856     
- max_pooling2d_6 (MaxPooling 2D)  	(None, 56, 56, 128)     0         
- conv2d_7 (Conv2D)                	(None, 56, 56, 256)     295168    
- max_pooling2d_7 (MaxPooling 2D)  	(None, 28, 28, 256)     0       
- conv2d_8 (Conv2D)                	(None, 28, 28, 512)     1180160 
- max_pooling2d_8 (MaxPooling 2D)  	(None, 14, 14, 512)     0      
- conv2d_9 (Conv2D)                	(None, 14, 14, 512)     2359808  
- max_pooling2d_9 (MaxPooling 2D)  	(None, 7, 7, 512)       0 
- flatten_1 (Flatten)              	(None, 25088)           0          
- dense_2 (Dense)                  	(None, 128)             3211392
- dropout_1 (Dropout)              	(None, 128)             0        
- dense_3 (Dense)                  	(None, 2)               258  
+ rescaling_1 (Rescaling)            (None, 224, 224, 3)     0    
+ conv2d_5 (Conv2D)                  (None, 224, 224, 64)    1792      
+ max_pooling2d_5 (MaxPooling 2D)    (None, 112, 112, 64)    0  
+ conv2d_6 (Conv2D)                  (None, 112, 112, 128)   73856     
+ max_pooling2d_6 (MaxPooling 2D)    (None, 56, 56, 128)     0         
+ conv2d_7 (Conv2D)                  (None, 56, 56, 256)     295168    
+ max_pooling2d_7 (MaxPooling 2D)    (None, 28, 28, 256)     0       
+ conv2d_8 (Conv2D)                  (None, 28, 28, 512)     1180160 
+ max_pooling2d_8 (MaxPooling 2D)    (None, 14, 14, 512)     0      
+ conv2d_9 (Conv2D)                  (None, 14, 14, 512)     2359808  
+ max_pooling2d_9 (MaxPooling 2D)    (None, 7, 7, 512)       0 
+ flatten_1 (Flatten)                (None, 25088)           0          
+ dense_2 (Dense)                    (None, 128)             3211392
+ dropout_1 (Dropout)                (None, 128)             0        
+ dense_3 (Dense)                    (None, 2)               258  
 =====================================================================
 Total params: 7,122,434
 Trainable params: 7,122,434
