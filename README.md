@@ -4,9 +4,9 @@ Final project for CSULB CECS-456 Machine Learning class.
 With this project, we aim to train a convolutional neural network model to detect pneumonia in x-ray images of a patient’s lungs. We train on the Kaggle dataset “Chest X-Ray Images (Pneumonia)”. The goal of our project is to determine, given an X-Ray, whether the X-Ray belongs to the ‘Normal’ or ‘Pneumonia’ class. Notice we have to determine if an image is a part of one class or another, there is no third class, which means we have a binary classification problem.
 
 ## Contributers
-* **Yoosef Batliwala** - https://github.com/yoosufb
-    * [Alexnet based neural network](https://github.com/yoosufb/CECS456_FinalProject/tree/main/Alexnet_MalharPandya)
 * **Malhar Pandya** - https://github.com/MPandya0
+    * [Alexnet based neural network](https://github.com/yoosufb/CECS456_FinalProject/tree/main/Alexnet_MalharPandya)
+* **Yoosuf Batliwala** - https://github.com/yoosufb
     * [ZFnet based neural network](https://github.com/yoosufb/CECS456_FinalProject/tree/main/ZFnet_Batliwala)
 * **Tony Samaniego** - https://github.com/tmsoc
     * [VGG16 based neural network](https://github.com/yoosufb/CECS456_FinalProject/tree/main/VGG_Samaniego)
