@@ -5,9 +5,9 @@ With this project, we aim to train a convolutional neural network model to detec
 
 ## Contributers
 * **Yoosef Batliwala** - https://github.com/yoosufb
-    * (Link to project folder)
+    * [Alexnet based neural network](https://github.com/yoosufb/CECS456_FinalProject/tree/main/Alexnet_MalharPandya)
 * **Malhar Pandya** - https://github.com/MPandya0
-    * (Link to project folder)
+    * [ZFnet based neural network](https://github.com/yoosufb/CECS456_FinalProject/tree/main/ZFnet_Batliwala)
 * **Tony Samaniego** - https://github.com/tmsoc
     * [VGG16 based neural network](https://github.com/yoosufb/CECS456_FinalProject/tree/main/VGG_Samaniego)
 
