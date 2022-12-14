@@ -7,6 +7,6 @@
  
 ## Import the saved model:
   - Download the given model and copy the path
-  - Use the load_model method specified in [third model](CECS456_FinalProject/Alexnet_MalharPandya/Alexnet_3.ipynb). 
+  - Use the load_model method specified in [third model](Alexnet_MalharPandya/Alexnet_3.ipynb). 
 
 ###### Feel free to reach out to malhar.pandya@student.csulb.edu with any questions!
